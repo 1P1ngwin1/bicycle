@@ -1,0 +1,42 @@
+//подключаем шрифты
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+//шрифты по умолчанию
+$fontfamily:"Lato";
+//переменные
+$minwidth:320px;
+//обнуление общие параметры
+@import "null.scss";
+body{
+
+}
+//оболочка
+.wrapper{
+    overflow: hidden;
+    min-height: 100%;
+}
+//основная сетка
+.container{
+    max-width: 1130px;
+    padding: 0px 15px;
+}
+//подключение файлов стилей страниц и элементов
+@import "ui.scss";
+@import "header.scss";
+@import "footer.scss";
+
+
+.page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+.main-screen {
+    &__bg {
+
+    }}
+.content {
+}
